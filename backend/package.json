@@ -1,0 +1,15 @@
+{
+  "name": "blog_webservices",
+  "version": "1.0.0",
+  "description": "APIs for blogg app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apis",
+    "webservices"
+  ],
+  "author": "vijay",
+  "license": "ISC"
+}
