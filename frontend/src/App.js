@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Header from './components/Header/Header';
 import Login from './continers/Login/Login';
+import Register from './continers/Register/Register';
 
 const routesConfig = [
   {
@@ -15,7 +16,7 @@ const routesConfig = [
   },
   {
     path: "/register",
-    element: <h1>Registration Page</h1>
+    element: <Register/>
   }
 ];
 

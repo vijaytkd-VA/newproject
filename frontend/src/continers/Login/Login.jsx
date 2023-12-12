@@ -1,5 +1,6 @@
  import { Button, Checkbox, Form, Input } from "antd";
 import "./Login.scss";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const onFinish = (values) => {
@@ -32,6 +33,7 @@ const Login = () => {
           </Button>
         </Form.Item>
       </Form>
+      <Link to="/register">Creat a new account </Link>
     </div>
   );
 };
