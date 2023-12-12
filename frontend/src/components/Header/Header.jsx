@@ -20,7 +20,7 @@ const Header = () => {
     <header className="blog-header">
       <NavBar className="navbar">
         {/* <div className="demo-logo" /> */}
-        <span>BlogApp</span>
+        <span> BlogApp</span>
         <Menu
           theme="light"
           mode="horizontal"
